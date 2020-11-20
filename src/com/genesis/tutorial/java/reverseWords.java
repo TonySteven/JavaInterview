@@ -28,7 +28,7 @@ public class reverseWords {
     public static void main(String[] args) {
         String str = "the sky is blue";
 
-        String result = reverseWordsMethod1(str);
+        String result = reverseWordsMethod2(str);
 
         System.out.println(result);
     }
