@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class quickSort {
     //插入排序
-    // Average: O(n^2) time | O(1) space
-    // Worst: O(n) time | O(n) space
+    // Average: O(nlogN) time | O(logN)) space
+    // Worst: O(n^2) time | O(n) space
     public static int[] quickSortMethod(int[] array) {
         quickSort(array, 0, array.length - 1);
         return array;
